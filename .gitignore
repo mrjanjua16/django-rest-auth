@@ -1,0 +1,40 @@
+# Ignore virtual environment files
+venv/
+env/
+.venv/
+*/.venv/
+virtualenv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore various generated files
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore database files (unless you're using a version control system specifically for database schemas)
+db.sqlite3
+*.db
+
+# Ignore static files build artifacts
+dist/
+build/
+
+# Ignore Django's collected static files (normally handled by deployment tools)
+staticfiles/
+
+# For larger projects or if you use a specific package manager, ignore its caching
+# pip
+# npm-cache
+
+# Ignore potentially sensitive data (replace with your actual files)
+secrets.py
+local_settings.py
